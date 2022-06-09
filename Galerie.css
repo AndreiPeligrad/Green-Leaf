@@ -1,0 +1,98 @@
+#continut {
+  width: 90%;
+  margin-left: 180px;
+
+  overflow: auto;
+  justify-content: center;
+  text-align: center;
+}
+
+.poza {
+  margin: 50px 50px 50px 50px;
+  border: 1px solid black;
+  float: left;
+}
+
+.poza img {
+  width: 400px;
+  height: 251px;
+  transition: 1s;
+}
+
+.poza img:hover {
+  transform: scale(1.26);
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(196, 218, 120);
+}
+
+header {
+  display: flex;
+  height: 80px;
+  align-items: center;
+  background-color: rgba(4, 31, 5, 0.7);
+  width: 100.8%;
+  position: sticky;
+  top: 0%;
+  margin-top: -5%;
+  margin-left: -8px;
+  z-index: 3;
+}
+
+#logo {
+  width: 60px;
+  height: 60px;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#titlu_firma {
+  color: white;
+}
+
+#logopoza {
+  width: auto;
+  float: left;
+  margin-left: 100px;
+  margin-right: 30px;
+}
+
+#titlufirma {
+  width: auto;
+  font-size: 30px;
+  font-family: "Titillium Web", "Orelega One", sans-serif;
+}
+
+.linkuri {
+  color: white;
+  list-style: none;
+}
+.linkuri a:hover {
+  color: rgb(196, 218, 120);
+}
+
+nav {
+  width: 80%;
+  height: auto;
+}
+
+li {
+  float: left;
+  margin-left: 6%;
+  align-items: center;
+  margin-top: -15px;
+  font-size: 30px;
+  font-family: "Titillium Web", "Orelega One", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
